@@ -1,6 +1,5 @@
 package ar.edu.utn.frba.ddsi.climalert.domain;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,6 +7,9 @@ import java.time.LocalDateTime;
 
 @Getter
 public class WeatherInfo {
+    @Setter
+    private long id;
+
     private final String name;
     private final double temp;
     private final int humidity;
@@ -18,9 +20,10 @@ public class WeatherInfo {
         this.name = name;
         this.temp = temp;
         this.humidity = humidity;
-        this.date = LocalDateTime.now();
-        this.evaluated = false;
+        this.date = date;
+        this.evaluated = evaluated;
     }
+
 
     public void evaluate(){
         this.evaluated=true;
