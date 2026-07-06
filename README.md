@@ -25,6 +25,6 @@ weatherapi:
   location: "Cape Verde"
 ```
 
-2. Reemplazá los valores por default, o seteá variables de entorno (`GMAIL_USERNAME`, `GMAIL_APP_PASSWORD`, `WEATHERAPI_KEY`) en vez de hardcodear los reales en el archivo.
+2. Reemplazá los valores por default, o seteá variables de entorno (`GMAIL_USERNAME`, `GMAIL_APP_PASSWORD`, `WEATHERAPI_KEY`).
 3. **Contraseña de aplicación de Gmail**: requiere verificación en dos pasos activada en la cuenta. Se genera en [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords).
 4. **API key de WeatherAPI**: se obtiene registrándose gratis en [weatherapi.com](https://www.weatherapi.com/).
