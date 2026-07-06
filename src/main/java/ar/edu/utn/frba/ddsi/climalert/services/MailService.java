@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 public class MailService {
     private final JavaMailSender mailSender;
     private static final String[] DESTINATARIOS = {
-            "brunapreal@gmail.com",
             "admin@clima.com",
             "emergencias@clima.com",
             "meteorologia@clima.com"

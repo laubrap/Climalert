@@ -12,7 +12,7 @@ public class SecuentialIdGenerator {
     }
 
     public long next() {
-        return next++; //post incremento, devuelve next y luego le suma 1
+        return next++;
     }
 }
 

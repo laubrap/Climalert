@@ -24,7 +24,6 @@ public class WeatherInfo {
         this.evaluated = evaluated;
     }
 
-
     public void evaluate(){
         this.evaluated=true;
     }
